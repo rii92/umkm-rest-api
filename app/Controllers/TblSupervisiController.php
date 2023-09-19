@@ -79,7 +79,7 @@ class TblSupervisiController extends ResourceController {
                 "latitude"=> esc($this->request->getVar('latitude')),
                 "longtitude"=> esc($this->request->getVar('longtitude')),
                 "cek_koordinasi"=> esc($this->request->getVar('cek_koordinasi')),
-                "cek_laporan"=> esc($this->request->getVar('cek_laporan')),
+                "cek_backup"=> esc($this->request->getVar('cek_backup')),
                 "cek_penelusuran_wilayah"=> esc($this->request->getVar('cek_penelusuran_wilayah')),
                 "cek_pml_pendamping"=> esc($this->request->getVar('cek_pml_pendamping')),
                 "cek_guna_bangunan"=> esc($this->request->getVar('cek_guna_bangunan')),
@@ -89,6 +89,11 @@ class TblSupervisiController extends ResourceController {
                 "solusi"=> esc($this->request->getVar('solusi')),
                 "user_ids"=> esc($this->request->getVar('user_ids')),
                 "waktusubmit"=> esc($this->request->getVar('waktusubmit')),
+                "bangunan_kemarin"=> esc($this->request->getVar('bangunan_kemarin')),
+                "bangunan_hari_ini"=> esc($this->request->getVar('bangunan_hari_ini')),
+                "bangunan_total"=> esc($this->request->getVar('bangunan_total')),
+                "pengecekkan_hp"=> esc($this->request->getVar('pengecekkan_hp')),
+                "ground_check"=> esc($this->request->getVar('ground_check')),
                 ]);
     
             $response = [
